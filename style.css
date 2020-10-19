@@ -1,0 +1,71 @@
+
+body{
+    background-color: #F5F5F5;
+}
+
+/* Carousel Section*/
+.buy-now-button{
+    background-image: linear-gradient(to bottom, rgb(247, 193, 16) 0%, orange 100%);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.buy-button{
+    background-image: linear-gradient(to bottom, #FF5898 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 20px;
+    cursor: pointer;
+
+}
+
+.carousel-bg{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+}
+
+.carousel-bg-img{
+    background-image: url("images/bg-2.png");
+    background-position: left bottom;
+    background-repeat: no-repeat; 
+}
+
+.carousel-item{
+    padding: 4% 10%;
+}
+.carousel-control-prev,   
+.carousel-control-next
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FFA231;
+    top: calc(50% - 25px);
+}
+.carousel-control-prev{
+    left: 5%;
+}
+
+/* Carousel Section Ends  */ 
+
+
+/* Phone Card Section Starts*/
+
+.card-box{
+    border-radius: 10px;
+    box-shadow:  0 0 15px lightgrey;
+    
+}
+.card-box:hover{
+    box-shadow: 0 0 7px #d64114;
+}
+
+.iphone-price{
+    margin-top: 36px;
+}
+
+/* Phone Card Section Ends  */
