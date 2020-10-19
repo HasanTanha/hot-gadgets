@@ -69,3 +69,11 @@ body{
 }
 
 /* Phone Card Section Ends  */
+
+/* Categories Section  */
+
+h1{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-top: 16px;
+}
